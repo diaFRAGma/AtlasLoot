@@ -1,0 +1,27 @@
+World of Warcraft 1.12.1 AddOn
+
+Es handelt sich um das alt bekannte AtlasLoot Addon. Allerdings habe ich ein paar Bugs behoben die in der damaligen Version noch im deutschen Teil vorhanden waren. Zum Beispiel war der Loottable für Stratholme ab Sothos & Jarien um eins versetzt. Dies sollte nun nicht mehr so sein.
+
+In späteren Versionen des AddOns gab es dann auch noch die Berufe um dort alle Rezepte nachsehen zu können. Das fehlte mir in dieser alten Version und darum baue ich dies nach und nach in die Version ein.
+
+Bisher impementiert:
+Verzauberkunst mit Atlas
+
+Noch zu implementieren
+Verzauberkunst ohne Atlas
+Schneidern mit Atlas
+Schneidern ohne Atlas
+Schmiedekunst mit Atlas
+Schmiedekunst ohne Atlas
+Lederverarbeitung mit Atlas
+Lederverarbeitung ohne Atlas
+Ingenieurskunst mit Atlas
+Ingenieurskunst ohne Atlas
+Alchimie mit Atlas
+Alchimie ohne Atlas
+Erste Hilfe mit Atlas
+Erste Hilfe ohne Atlas
+Kochen mit Atlas
+Kochen ohne Atlas
+
+Mit "mit Atlas" ist gemeint, dass die Funktion über das Atlas Addon aufrufbar ist. "ohne Atlas" heißt, dass es auch funktioniert, wenn man Atlas nicht installiert hat.
