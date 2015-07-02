@@ -501,13 +501,25 @@ function AtlasLootProfessionsButton_OnClick(setid)
 		AtlasLoot_ShowItemsFrame(setid, AtlasLootProfessionsItems, ATLASLOOT_TAILORING..": "..ATLASLOOT_TRADE_GOODS, AtlasLoot_AnchorFrame);
 		getglobal("AtlasLootItemsFrame_PREV").lootpage="TailoringFeet";
 		getglobal("AtlasLootItemsFrame_PREV"):Show();
-		getglobal("AtlasLootItemsFrame_NEXT").lootpage="TailoringBags";
+		getglobal("AtlasLootItemsFrame_NEXT").lootpage="TailoringBags1";
 		getglobal("AtlasLootItemsFrame_NEXT"):Show();
-	elseif(setid=="TailoringBags") then
-		AtlasLoot_ShowItemsFrame(setid, AtlasLootProfessionsItems, ATLASLOOT_TAILORING..": "..ATLASLOOT_BAG, AtlasLoot_AnchorFrame);
+	elseif(setid=="TailoringBags1") then
+		AtlasLoot_ShowItemsFrame(setid, AtlasLootProfessionsItems, ATLASLOOT_TAILORING..": "..ATLASLOOT_BAG.." - "..ATLASLOOT_PAGE1, AtlasLoot_AnchorFrame);
 		getglobal("AtlasLootItemsFrame_PREV").lootpage="TailoringTradeGoods";
 		getglobal("AtlasLootItemsFrame_PREV"):Show();
+		getglobal("AtlasLootItemsFrame_NEXT").lootpage="TailoringBags2";
+		getglobal("AtlasLootItemsFrame_NEXT"):Show();
+	elseif(setid=="TailoringBags2") then
+		AtlasLoot_ShowItemsFrame(setid, AtlasLootProfessionsItems, ATLASLOOT_TAILORING..": "..ATLASLOOT_BAG.." - "..ATLASLOOT_PAGE2, AtlasLoot_AnchorFrame);
+		getglobal("AtlasLootItemsFrame_PREV").lootpage="TailoringBags1";
+		getglobal("AtlasLootItemsFrame_PREV"):Show();
 		getglobal("AtlasLootItemsFrame_NEXT").lootpage="TailoringHead";
+		getglobal("AtlasLootItemsFrame_NEXT"):Show();
+	elseif(setid=="TailoringHead") then
+		AtlasLoot_ShowItemsFrame(setid, AtlasLootProfessionsItems, ATLASLOOT_TAILORING..": "..ATLASLOOT_HEAD, AtlasLoot_AnchorFrame);
+		getglobal("AtlasLootItemsFrame_PREV").lootpage="TailoringBags2";
+		getglobal("AtlasLootItemsFrame_PREV"):Show();
+		getglobal("AtlasLootItemsFrame_NEXT").lootpage="TailoringShoulder";
 		getglobal("AtlasLootItemsFrame_NEXT"):Show();
 	elseif(setid=="Leatherworking") then
 		AtlasLoot_ShowItemsFrame(setid, AtlasLootProfessionsItems, ATLASLOOT_LEATHERWORKING, AtlasLoot_AnchorFrame);
