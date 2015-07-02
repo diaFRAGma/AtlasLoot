@@ -307,63 +307,37 @@ AtlasLootProfessionsItems = {
 		{ 0, "", "", "" },
 		{ 11811, "INV_Misc_Gem_Bloodstone_01", "=q3=Rauchendes Herz des Berges", "=ds=#s14#" },
         };
-		
-	Tailoring = {
-		};
-		
+
 	TailoringTradeGoods = {
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 14526, "INV_Scroll_03", "=q1=Muster: Mondstoff", "=ds=#p8# (250) [H\195\164ndler]" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
 		{ 2996, "INV_Fabric_Linen_02", "=q1=Leinenstoffballen", "=ds=#p8# (1) [Lehrer]" },
 		{ 2997, "INV_Fabric_Wool_03", "=q1=Wollstoffballen", "=ds=#p8# (75) [Lehrer]" },
 		{ 4305, "INV_Fabric_Silk_03", "=q1=Seidenstoffballen", "=ds=#p8# (125) [Lehrer]" },
 		{ 4339, "INV_Fabric_Mageweave_03", "=q1=Magiestoffballen", "=ds=#p8# (175) [Lehrer]" },
-		{ 14526, "INV_Scroll_03", "=q1=Muster: Mondstoff", "=ds=#p8# (250) [H\195\164ndler]" },
+		{ 14048, "INV_Fabric_Purplefire_02", "=q1=Runenstoffballen", "=ds=#p8# (250) [Lehrer]" },
+		{ 14342, "INV_Fabric_Moonrag_01", "=q1=Mondstoff", "" },
 		};
 
-	TailoringHands = {
-		{ 4307, "Inv_Gauntlets_05", "=q1=Schwere Leinenhandschuhe", "=ds=#p8# (35) [Lehrer]" },
-		{ 4310, "INV_Gauntlets_05", "=q2=Schwere Wollhandschuhe", "=ds=#p8# (85) [Lehrer]" },
-		{ 4318, "INV_Gauntlets_05", "=q2=Handschuhe der Meditation", "=ds=#p8# (130) [Lehrer]" },
-		{ 7064, "INV_Gauntlets_05", "=q2=Purpurrote Seidenhandschuhe", "=ds=#p8# (210) [Lehrer]" },
-		{ 10003, "INV_Gauntlets_05", "=q2=Schwarze Magiestoffhandschuhe", "=ds=#p8# (215) [Lehrer]" },
-		{ 10019, "INV_Gauntlets_18", "=q3=Traumzwirnhandschuhe", "=ds=#p8# (225) [Lehrer]" },
-		{ 14481, "INV_Scroll_03", "=q1=Muster: Runenstoffhandschuhe", "=ds=#p8# (275) [H\195\164ndler]" },
-		{ 17018, "INV_Scroll_03", "=q1=Muster: Flimmerkernhandschuhe", "=ds=#p8# (300) [H\195\164ndler]" },
-		{ 7114, "INV_Scroll_03", "=q1=Muster: Azurblaue Seidenhandschuhe", "=ds=#p8# (145) [H\195\164ndler]" },
-		{ 14474, "INV_Scroll_06", "=q2=Muster: Winterzwirnhandschuhe", "=ds=#p8# (265) [Drop]" },
-		{ 10312, "INV_Scroll_06", "=q2=Muster: Rote Magiestoffhandschuhe", "=ds=#p8# (225) [Drop]" },
-		{ 4348, "INV_Scroll_06", "=q2=Muster: Phönixhandschuhe", "=ds=#p8# (125) [Drop]" },
-		{ 7092, "INV_Scroll_06", "=q2=Muster: H\195\164nde der Dunkelheit", "=ds=#p8# (145) [Drop]" },
-		{ 14479, "INV_Scroll_06", "=q2=Muster: Hellstoffhandschuhe", "=ds=#p8# (270) [Drop]" },
-		{ 7091, "INV_Scroll_06", "=q2=Muster: Handschuhe des wahren Glaubens", "=ds=#p8# (150) [Drop]" },
-		{ 14477, "INV_Scroll_06", "=q2=Muster: Geisterzwirnhandschuhe", "=ds=#p8# (270) [Drop]" },
-		{ 14476, "INV_Scroll_06", "=q2=Muster: Aschenstoffhandschuhe", "=ds=#p8# (270) [Drop]" },
-		{ 18415, "INV_Scroll_05", "=q3=Muster: Teufelsstoffhandschuhe", "=ds=#p8# (300) [Drop DM]" },
-		{ 18417, "INV_Scroll_05", "=q3=Muster: Mondstoffhandschuhe", "=ds=#p8# (300) [Drop DM]" },
-		{ 18416, "INV_Scroll_05", "=q3=Muster: Infernohandschuhe", "=ds=#p8# (300) [Drop]" },
-		{ 14511, "INV_Scroll_03", "=q4=Muster: Handschuhe der Zauberbeherrschung", "=ds=#p8# (300) [Drop Scholo]" },
-		};
-		
-	TailoringFeet = {
-		{ 10046, "INV_Boots_05", "=q1=Einfache Leinenstiefel", "=ds=#p8# (20) [Lehrer]" },
-		{ 2569, "INV_Boots_09", "=q1=Leinenstiefel", "=ds=#p8# (65) [Lehrer]" },
-		{ 4312, "INV_Boots_09", "=q2=Leinenschuhe mit weichen Sohlen", "=ds=#p8# (80) [Lehrer]" },
-		{ 2583, "INV_Boots_09", "=q2=Wollstiefel", "=ds=#p8# (95) [Lehrer]" },
-		{ 4320, "INV_Boots_05", "=q3=Spinnenseidenstiefel", "=ds=#p8# (125) [Lehrer]" },
-		{ 14488, "INV_Scroll_03", "=q1=Muster: Runenstoffstiefel", "=ds=#p8# (280) [H\195\164ndler]" },
-		{ 19766, "INV_Scroll_03", "=q1=Muster: Blutrebenstiefel", "=ds=#p8# (300) [H\195\164ndler]" },
-		{ 19216, "INV_Scroll_03", "=q1=Muster: Argentumstiefel", "=ds=#p8# (290) [H\195\164ndler]" },
-		{ 14492, "INV_Scroll_06", "=q2=Muster: Teufelsstoffstiefel", "=ds=#p8# (285) [Drop]" },
-		{ 4352, "INV_Scroll_06", "=q2=Muster: Stiefel des Verzauberers", "=ds=#p8# (175) [Drop]" },
-		{ 4350, "INV_Scroll_06", "=q2=Muster: Spinnenseidenslipper", "=ds=#p8# (140) [Drop]" },
-		{ 4345, "INV_Scroll_06", "=q2=Muster: Rote Wollstiefel", "=ds=#p8# (95) [Drop]" },
-		{ 20547, "INV_Scroll_05", "=q3=Muster: Runenverzierte stygische Stiefel", "=ds=#p8# (300)" },
-		};
-		
 	TailoringBags = {
 		{ 4238, "INV_Misc_Bag_01", "=q1=Leinentasche", "=ds=#p8# (45) [Lehrer]" },
 		{ 4240, "INV_Misc_Bag_10", "=q1=Wolltasche", "=ds=#p8# (80) [Lehrer]" },
 		{ 4245, "INV_Misc_Bag_07", "=q1=Kleines Seidenpack", "=ds=#p8# (150) [Lehrer]" },
 		{ 10050, "INV_Misc_Bag_10_Black", "=q1=Magiestofftasche", "=ds=#p8# (225) [Lehrer]" },
+		{ 10051, "INV_Misc_Bag_10_Red", "=q1=Rote Magiestofftasche", "=ds=#p8# (235) [Lehrer]" },
 		{ 22307, "INV_Scroll_03", "=q1=Muster: Verzauberter Magiestoffbeutel", "=ds=#p8# (225) [H\195\164ndler]" },
 		{ 22308, "INV_Scroll_03", "=q1=Muster: Verzauberte Runenstofftasche", "=ds=#p8# (275) [H\195\164ndler]" },
 		{ 21358, "INV_Scroll_03", "=q1=Muster: Seelenbeutel", "=ds=#p8# (260) [H\195\164ndler]" },
@@ -384,6 +358,8 @@ AtlasLootProfessionsItems = {
 	TailoringHead = {
 		{ 7048, "INV_Helmet_29", "=q1=Azurblaue Seidenkapuze", "=ds=#p8# (145) [Lehrer]" },
 		{ 7050, "INV_Misc_Bandana_01", "=q1=Seidenes Stirnband", "=ds=#p8# (160) [Lehrer]" },
+		{ 10024, "INV_Misc_Bandana_01", "=q2=Schwarzes Magiestoffstirnband", "=ds=#p8# (230) [Lehrer]" },
+		{ 10041, "INV_Crown_01", "=q3=Traumzwirnreif", "=ds=#p8# (250) [Lehrer]" },
 		{ 14630, "INV_Scroll_03", "=q1=Muster: Verzauberergugel", "=ds=#p8# (165) [H\195\164ndler]" },
 		{ 22773, "INV_Scroll_03", "=q1=Muster: Sylvankrone", "=ds=#p8# (300) [H\195\164ndler]" },
 		{ 10318, "INV_Scroll_03", "=q1=Muster: Admiralshut", "=ds=#p8# (240) [H\195\164ndler]" },
@@ -396,36 +372,11 @@ AtlasLootProfessionsItems = {
 		{ 14505, "INV_Scroll_06", "=q2=Muster: Hexerzwirnturban", "=ds=#p8# (300) [Drop]" },
 		{ 14509, "INV_Scroll_03", "=q3=Muster: Mondstoffreif", "=ds=#p8# (300) [Drop]" },
 		};
-		
-	TailoringLegs = {
-		{ 10045, "INV_Pants_11", "=q1=Einfache Leinenhose", "=ds=#p8# (1) [Lehrer]" },
-		{ 4343, "INV_Pants_06", "=q1=Braune Leinenhose", "=ds=#p8# (30) [Lehrer]" },
-		{ 4309, "INV_Pants_07", "=q2=Handgen\195\164hte Leinenkniehosen", "=ds=#p8# (70) [Lehrer]" },
-		{ 10047, "INV_Pants_11", "=q1=Einfacher Kilt", "=ds=#p8# (75) [Lehrer]" },
-		{ 4316, "INV_Pants_01", "=q2=Schwere Wollhose", "=ds=#p8# (110) [Lehrer]" },
-		{ 7046, "INV_Pants_08", "=q2=Azurblaue Seidenhose", "=ds=#p8# (140) [Lehrer]" },
-		{ 7062, "INV_Pants_06", "=q1=Purpurrote Seidenpantalons", "=ds=#p8# (195) [Lehrer]" },
-		{ 9999, "INV_Pants_09", "=q2=Schwarze Magiestoffgamaschen", "=ds=#p8# (205) [Lehrer]" },
-		{ 14483, "INV_Scroll_03", "=q1=Muster: Teufelsstoffhose", "=ds=#p8# (275) [H\195\164ndler]" },
-		{ 10323, "INV_Scroll_03", "=q1=Muster: Smokinghose", "=ds=#p8# (245) [H\195\164ndler]" },
-		{ 19220, "INV_Scroll_03", "=q1=Muster: Flimmerkerngamaschen", "=ds=#p8# (300) [H\195\164ndler]" },
-		{ 19765, "INV_Scroll_03", "=q1=Muster: Blutrebengamaschen", "=ds=#p8# (300) [H\195\164ndler]" },
-		{ 14489, "INV_Scroll_06", "=q2=Muster: Winterzwirnhose", "=ds=#p8# (280) [Drop]" },
-		{ 14491, "INV_Scroll_06", "=q2=Muster: Runenstoffhose", "=ds=#p8# (285) [Drop]" },
-		{ 10302, "INV_Scroll_06", "=q2=Muster: Rote Magiestoffhose", "=ds=#p8# (215) [Drop]" },
-		{ 4349, "INV_Scroll_06", "=q2=Muster: Phönixhose", "=ds=#p8# (125) [Drop]" },
-		{ 14485, "INV_Scroll_06", "=q2=Muster: Hexerzwirngamaschen", "=ds=#p8# (275) [Drop]" },
-		{ 14494, "INV_Scroll_06", "=q2=Muster: Hellstoffhose", "=ds=#p8# (290) [Drop]" },
-		{ 14495, "INV_Scroll_06", "=q2=Muster: Geisterzwirnhose", "=ds=#p8# (290) [Drop Strath]" },
-		{ 10316, "INV_Scroll_06", "=q2=Muster: Bunter Kilt", "=ds=#p8# (120) [Drop]" },
-		{ 14490, "INV_Scroll_06", "=q2=Muster: Aschenstoffhose", "=ds=#p8# (280) [Drop]" },
-		{ 20546, "INV_Scroll_05", "=q3=Muster: Runenverzierte stygische Gamaschen", "=ds=#p8# (300) [Drop]" },
-		{ 14497, "INV_Scroll_03", "=q3=Muster: Mondstoffgamaschen", "=ds=#p8# (290) [Drop]" },
-		};
 
 	TailoringShoulder = {
 		{ 4314, "INV_Shoulder_06", "=q1=Doppeltgen\195\164hte Wollschultern", "=ds=#p8# (110) [Lehrer]" },
 		{ 7057, "INV_Shoulder_18", "=q2=Gr\195\188ne Seidenschultern", "=ds=#p8# (180) [Lehrer]" },
+		{ 10027, "INV_Shoulder_25", "=q2=Schwarze Magiestoffschultern", "=ds=#p8# (230) [Lehrer]" },
 		{ 22772, "INV_Scroll_03", "=q1=Muster: Sylvanschultern", "=ds=#p8# (300) [H\195\164ndler]" },
 		{ 19218, "INV_Scroll_03", "=q1=Muster: Mantel der Holzschlundfeste", "=ds=#p8# (300) [H\195\164ndler]" },
 		{ 17017, "INV_Scroll_03", "=q1=Muster: Flimmerkernmantel", "=ds=#p8# (300) [H\195\164ndler]" },
@@ -474,6 +425,7 @@ AtlasLootProfessionsItems = {
 		{ 10001, "INV_Chest_Cloth_13", "=q2=Schwarze Magiestoffrobe", "=ds=#p8# (210) [Lehrer]" },
 		{ 10042, "INV_Chest_Cloth_25", "=q2=Aschenstoffrobe", "=ds=#p8# (225) [Lehrer]" },
 		{ 10021, "INV_Chest_Cloth_42", "=q3=Traumzwirnweste", "=ds=#p8# (225) [Lehrer]" },
+		{ 10053, "INV_Chest_Cloth_21", "=q1=Einfaches schwarzes Kleid", "=ds=#p8# (235) [Lehrer]" },
 		{ 10325, "INV_Scroll_03", "=q1=Muster: Weißes Hochzeitskleid", "=ds=#p8# (250) [H\195\164ndler]" },
 		{ 22774, "INV_Scroll_03", "=q1=Muster: Sylvanweste", "=ds=#p8# (300) [H\195\164ndler]" },
 		{ 10326, "INV_Scroll_03", "=q1=Muster: Smokingjacke", "=ds=#p8# (250) [H\195\164ndler]" },
@@ -533,11 +485,41 @@ AtlasLootProfessionsItems = {
 		{ 6390, "INV_Scroll_06", "=q2=Muster: Modisches blaues Hemd", "=ds=#p8# (120) [Drop]" },
 		{ 4354, "INV_Scroll_05", "=q3=Muster: Dunkellila Seidenhemd", "=ds=#p8# (185) [Drop]" },
 		};
-		
+
+	TailoringBracer = {
+		{ 4308, "INV_Bracer_12", "=q1=Gr\195\188ne Leinenarmschienen", "=ds=#p8# (60) [Lehrer]" },
+		{ 18265, "INV_Scroll_05", "=q3=Muster: Flimmerkernwickelt\195\188cher", "=ds=#p8# (300) [Drop MC]" },
+		};
+
+	TailoringHands = {
+		{ 4307, "Inv_Gauntlets_05", "=q1=Schwere Leinenhandschuhe", "=ds=#p8# (35) [Lehrer]" },
+		{ 4310, "INV_Gauntlets_05", "=q2=Schwere Wollhandschuhe", "=ds=#p8# (85) [Lehrer]" },
+		{ 4318, "INV_Gauntlets_05", "=q2=Handschuhe der Meditation", "=ds=#p8# (130) [Lehrer]" },
+		{ 7064, "INV_Gauntlets_05", "=q2=Purpurrote Seidenhandschuhe", "=ds=#p8# (210) [Lehrer]" },
+		{ 10003, "INV_Gauntlets_05", "=q2=Schwarze Magiestoffhandschuhe", "=ds=#p8# (215) [Lehrer]" },
+		{ 10019, "INV_Gauntlets_18", "=q3=Traumzwirnhandschuhe", "=ds=#p8# (225) [Lehrer]" },
+		{ 14481, "INV_Scroll_03", "=q1=Muster: Runenstoffhandschuhe", "=ds=#p8# (275) [H\195\164ndler]" },
+		{ 17018, "INV_Scroll_03", "=q1=Muster: Flimmerkernhandschuhe", "=ds=#p8# (300) [H\195\164ndler]" },
+		{ 7114, "INV_Scroll_03", "=q1=Muster: Azurblaue Seidenhandschuhe", "=ds=#p8# (145) [H\195\164ndler]" },
+		{ 14474, "INV_Scroll_06", "=q2=Muster: Winterzwirnhandschuhe", "=ds=#p8# (265) [Drop]" },
+		{ 10312, "INV_Scroll_06", "=q2=Muster: Rote Magiestoffhandschuhe", "=ds=#p8# (225) [Drop]" },
+		{ 4348, "INV_Scroll_06", "=q2=Muster: Phönixhandschuhe", "=ds=#p8# (125) [Drop]" },
+		{ 7092, "INV_Scroll_06", "=q2=Muster: H\195\164nde der Dunkelheit", "=ds=#p8# (145) [Drop]" },
+		{ 14479, "INV_Scroll_06", "=q2=Muster: Hellstoffhandschuhe", "=ds=#p8# (270) [Drop]" },
+		{ 7091, "INV_Scroll_06", "=q2=Muster: Handschuhe des wahren Glaubens", "=ds=#p8# (150) [Drop]" },
+		{ 14477, "INV_Scroll_06", "=q2=Muster: Geisterzwirnhandschuhe", "=ds=#p8# (270) [Drop]" },
+		{ 14476, "INV_Scroll_06", "=q2=Muster: Aschenstoffhandschuhe", "=ds=#p8# (270) [Drop]" },
+		{ 18415, "INV_Scroll_05", "=q3=Muster: Teufelsstoffhandschuhe", "=ds=#p8# (300) [Drop DM]" },
+		{ 18417, "INV_Scroll_05", "=q3=Muster: Mondstoffhandschuhe", "=ds=#p8# (300) [Drop DM]" },
+		{ 18416, "INV_Scroll_05", "=q3=Muster: Infernohandschuhe", "=ds=#p8# (300) [Drop]" },
+		{ 14511, "INV_Scroll_03", "=q4=Muster: Handschuhe der Zauberbeherrschung", "=ds=#p8# (300) [Drop Scholo]" },
+		};
+
 	TailoringBelt = {
 		{ 7026, "INV_Belt_05", "=q1=Leineng\195\188rtel", "=ds=#p8# (10) [Lehrer]" },
 		{ 7052, "INV_Belt_22", "=q2=Azurblauer Seideng\195\188rtel", "=ds=#p8# (175) [Lehrer]" },
 		{ 7055, "INV_Belt_04", "=q2=Purpurroter Seideng\195\188rtel", "=ds=#p8# (175) [Lehrer]" },
+		{ 13856, "INV_Belt_15", "=q2=Runenstoffg\195\188rtel", "=ds=#p8# (255) [Lehrer]" },
 		{ 19215, "INV_Scroll_03", "=q1=Muster: Weisheit der Holzschlundfeste", "=ds=#p8# (290) [H\195\164ndler]" },
 		{ 4356, "INV_Scroll_06", "=q2=Muster: Sternengürtel", "=ds=#p8# (200) [Drop]" },
 		{ 4353, "INV_Scroll_06", "=q2=Muster: Spinneng\195\188rtel", "=ds=#p8# (180) [Drop]" },
@@ -547,11 +529,53 @@ AtlasLootProfessionsItems = {
 		{ 18414, "INV_Scroll_04", "=q4=Muster: G\195\188rtel des Erzmagiers", "=ds=#p8# (300) [Drop]" },
 		};
 
-	TailoringBracer = {
-		{ 4308, "INV_Bracer_12", "=q1=Gr\195\188ne Leinenarmschienen", "=ds=#p8# (60) [Lehrer]" },
-		{ 18265, "INV_Scroll_05", "=q3=Muster: Flimmerkernwickelt\195\188cher", "=ds=#p8# (300) [Drop MC]" },
+	TailoringLegs = {
+		{ 10045, "INV_Pants_11", "=q1=Einfache Leinenhose", "=ds=#p8# (1) [Lehrer]" },
+		{ 4343, "INV_Pants_06", "=q1=Braune Leinenhose", "=ds=#p8# (30) [Lehrer]" },
+		{ 4309, "INV_Pants_07", "=q2=Handgen\195\164hte Leinenkniehosen", "=ds=#p8# (70) [Lehrer]" },
+		{ 10047, "INV_Pants_11", "=q1=Einfacher Kilt", "=ds=#p8# (75) [Lehrer]" },
+		{ 4316, "INV_Pants_01", "=q2=Schwere Wollhose", "=ds=#p8# (110) [Lehrer]" },
+		{ 7046, "INV_Pants_08", "=q2=Azurblaue Seidenhose", "=ds=#p8# (140) [Lehrer]" },
+		{ 7062, "INV_Pants_06", "=q1=Purpurrote Seidenpantalons", "=ds=#p8# (195) [Lehrer]" },
+		{ 9999, "INV_Pants_09", "=q2=Schwarze Magiestoffgamaschen", "=ds=#p8# (205) [Lehrer]" },
+		{ 14483, "INV_Scroll_03", "=q1=Muster: Teufelsstoffhose", "=ds=#p8# (275) [H\195\164ndler]" },
+		{ 10323, "INV_Scroll_03", "=q1=Muster: Smokinghose", "=ds=#p8# (245) [H\195\164ndler]" },
+		{ 19220, "INV_Scroll_03", "=q1=Muster: Flimmerkerngamaschen", "=ds=#p8# (300) [H\195\164ndler]" },
+		{ 19765, "INV_Scroll_03", "=q1=Muster: Blutrebengamaschen", "=ds=#p8# (300) [H\195\164ndler]" },
+		{ 14489, "INV_Scroll_06", "=q2=Muster: Winterzwirnhose", "=ds=#p8# (280) [Drop]" },
+		{ 14491, "INV_Scroll_06", "=q2=Muster: Runenstoffhose", "=ds=#p8# (285) [Drop]" },
+		{ 10302, "INV_Scroll_06", "=q2=Muster: Rote Magiestoffhose", "=ds=#p8# (215) [Drop]" },
+		{ 4349, "INV_Scroll_06", "=q2=Muster: Phönixhose", "=ds=#p8# (125) [Drop]" },
+		{ 14485, "INV_Scroll_06", "=q2=Muster: Hexerzwirngamaschen", "=ds=#p8# (275) [Drop]" },
+		{ 14494, "INV_Scroll_06", "=q2=Muster: Hellstoffhose", "=ds=#p8# (290) [Drop]" },
+		{ 14495, "INV_Scroll_06", "=q2=Muster: Geisterzwirnhose", "=ds=#p8# (290) [Drop Strath]" },
+		{ 10316, "INV_Scroll_06", "=q2=Muster: Bunter Kilt", "=ds=#p8# (120) [Drop]" },
+		{ 14490, "INV_Scroll_06", "=q2=Muster: Aschenstoffhose", "=ds=#p8# (280) [Drop]" },
+		{ 20546, "INV_Scroll_05", "=q3=Muster: Runenverzierte stygische Gamaschen", "=ds=#p8# (300) [Drop]" },
+		{ 14497, "INV_Scroll_03", "=q3=Muster: Mondstoffgamaschen", "=ds=#p8# (290) [Drop]" },
 		};
-	
+
+	TailoringFeet = {
+		{ 10046, "INV_Boots_05", "=q1=Einfache Leinenstiefel", "=ds=#p8# (20) [Lehrer]" },
+		{ 2569, "INV_Boots_09", "=q1=Leinenstiefel", "=ds=#p8# (65) [Lehrer]" },
+		{ 4312, "INV_Boots_09", "=q2=Leinenschuhe mit weichen Sohlen", "=ds=#p8# (80) [Lehrer]" },
+		{ 2583, "INV_Boots_09", "=q2=Wollstiefel", "=ds=#p8# (95) [Lehrer]" },
+		{ 4320, "INV_Boots_05", "=q3=Spinnenseidenstiefel", "=ds=#p8# (125) [Lehrer]" },
+		{ 10026, "INV_Boots_05", "=q2=Schwarze Magiestoffstiefel", "=ds=#p8# (230) [Lehrer]" },
+		{ 10044, "INV_Boots_05", "=q2=Aschenstoffstiefel", "=ds=#p8# (245) [Lehrer]" },
+		{ 14488, "INV_Scroll_03", "=q1=Muster: Runenstoffstiefel", "=ds=#p8# (280) [H\195\164ndler]" },
+		{ 19766, "INV_Scroll_03", "=q1=Muster: Blutrebenstiefel", "=ds=#p8# (300) [H\195\164ndler]" },
+		{ 19216, "INV_Scroll_03", "=q1=Muster: Argentumstiefel", "=ds=#p8# (290) [H\195\164ndler]" },
+		{ 14492, "INV_Scroll_06", "=q2=Muster: Teufelsstoffstiefel", "=ds=#p8# (285) [Drop]" },
+		{ 4352, "INV_Scroll_06", "=q2=Muster: Stiefel des Verzauberers", "=ds=#p8# (175) [Drop]" },
+		{ 4350, "INV_Scroll_06", "=q2=Muster: Spinnenseidenslipper", "=ds=#p8# (140) [Drop]" },
+		{ 4345, "INV_Scroll_06", "=q2=Muster: Rote Wollstiefel", "=ds=#p8# (95) [Drop]" },
+		{ 20547, "INV_Scroll_05", "=q3=Muster: Runenverzierte stygische Stiefel", "=ds=#p8# (300)" },
+		};
+
+	Tailoring = {
+		};
+
 	Leatherworking = {
 		};
 

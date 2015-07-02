@@ -497,8 +497,18 @@ function AtlasLootProfessionsButton_OnClick(setid)
 		getglobal("AtlasLootItemsFrame_PREV"):Show();
 		getglobal("AtlasLootItemsFrame_NEXT").lootpage="EnchantingHead";
 		getglobal("AtlasLootItemsFrame_NEXT"):Show();
-	elseif(setid=="Tailoring") then
-		AtlasLoot_ShowItemsFrame(setid, AtlasLootProfessionsItems, ATLASLOOT_TAILORING, AtlasLoot_AnchorFrame);
+	elseif(setid=="TailoringTradeGoods") then
+		AtlasLoot_ShowItemsFrame(setid, AtlasLootProfessionsItems, ATLASLOOT_TAILORING..": "..ATLASLOOT_TRADE_GOODS, AtlasLoot_AnchorFrame);
+		getglobal("AtlasLootItemsFrame_PREV").lootpage="TailoringFeet";
+		getglobal("AtlasLootItemsFrame_PREV"):Show();
+		getglobal("AtlasLootItemsFrame_NEXT").lootpage="TailoringBags";
+		getglobal("AtlasLootItemsFrame_NEXT"):Show();
+	elseif(setid=="TailoringBags") then
+		AtlasLoot_ShowItemsFrame(setid, AtlasLootProfessionsItems, ATLASLOOT_TAILORING..": "..ATLASLOOT_BAG, AtlasLoot_AnchorFrame);
+		getglobal("AtlasLootItemsFrame_PREV").lootpage="TailoringTradeGoods";
+		getglobal("AtlasLootItemsFrame_PREV"):Show();
+		getglobal("AtlasLootItemsFrame_NEXT").lootpage="TailoringHead";
+		getglobal("AtlasLootItemsFrame_NEXT"):Show();
 	elseif(setid=="Leatherworking") then
 		AtlasLoot_ShowItemsFrame(setid, AtlasLootProfessionsItems, ATLASLOOT_LEATHERWORKING, AtlasLoot_AnchorFrame);
 	elseif(setid=="Blacksmithing") then
@@ -905,7 +915,7 @@ function AtlasLootProfessionsMenu()
     AtlasLootMenuItem_17_Extra:SetText("");
     AtlasLootMenuItem_17_Icon:SetTexture("Interface\\Icons\\trade_tailoring");
     AtlasLootMenuItem_17.type="Professions";
-    AtlasLootMenuItem_17.lootpage="Tailoring";
+    AtlasLootMenuItem_17.lootpage="TailoringTradeGoods";
     AtlasLootMenuItem_17.text=ATLASLOOT_TAILORING;
     AtlasLootMenuItem_17:Show();
     --Schmiedekunst
