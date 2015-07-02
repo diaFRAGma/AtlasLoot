@@ -26,6 +26,11 @@ ATLASLOOT_RECLICK_MESSAGE = ".  Bitte klick so lange auf das Item, bis diese Mel
 ATLASLOOT_BANNER_TEXT = "Klick auf den Bossnamen um den Loot anzeigen zu lassen"
 
 ATLASLOOT_UIBACK = "Zur\195\188ck";
+ATLASLOOT_PAGE1 = "Seite 1";
+ATLASLOOT_PAGE2 = "Seite 2";
+ATLASLOOT_PAGE3 = "Seite 3";
+ATLASLOOT_PAGE4 = "Seite 4";
+ATLASLOOT_PAGE5 = "Seite 5";
 
 ATLASLOOT_CLOTH = "Stoff";
 ATLASLOOT_LEATHER = "Leder";

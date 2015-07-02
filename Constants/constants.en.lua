@@ -24,6 +24,11 @@ ATLASLOOT_QUERY_MESSAGE = "Querying server for ";
 ATLASLOOT_RECLICK_MESSAGE = ".  Please click again until you do not see this message.";
 
 ATLASLOOT_UIBACK = "Back";
+ATLASLOOT_PAGE1 = "Page 1";
+ATLASLOOT_PAGE2 = "Page 2";
+ATLASLOOT_PAGE3 = "Page 3";
+ATLASLOOT_PAGE4 = "Page 4";
+ATLASLOOT_PAGE5 = "Page 5";
 
 ATLASLOOT_CLOTH = "Cloth";
 ATLASLOOT_LEATHER = "Leather";
