@@ -527,6 +527,12 @@ function AtlasLootProfessionsButton_OnClick(setid)
 		getglobal("AtlasLootItemsFrame_PREV"):Show();
 		getglobal("AtlasLootItemsFrame_NEXT").lootpage="TailoringBack";
 		getglobal("AtlasLootItemsFrame_NEXT"):Show();
+	elseif(setid=="TailoringBack") then
+		AtlasLoot_ShowItemsFrame(setid, AtlasLootProfessionsItems, ATLASLOOT_TAILORING..": "..ATLASLOOT_BACK, AtlasLoot_AnchorFrame);
+		getglobal("AtlasLootItemsFrame_PREV").lootpage="TailoringShoulder";
+		getglobal("AtlasLootItemsFrame_PREV"):Show();
+		getglobal("AtlasLootItemsFrame_NEXT").lootpage="TailoringChest1";
+		getglobal("AtlasLootItemsFrame_NEXT"):Show();
 	elseif(setid=="Leatherworking") then
 		AtlasLoot_ShowItemsFrame(setid, AtlasLootProfessionsItems, ATLASLOOT_LEATHERWORKING, AtlasLoot_AnchorFrame);
 	elseif(setid=="Blacksmithing") then
