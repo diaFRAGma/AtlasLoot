@@ -533,6 +533,30 @@ function AtlasLootProfessionsButton_OnClick(setid)
 		getglobal("AtlasLootItemsFrame_PREV"):Show();
 		getglobal("AtlasLootItemsFrame_NEXT").lootpage="TailoringChest1";
 		getglobal("AtlasLootItemsFrame_NEXT"):Show();
+	elseif(setid=="TailoringChest1") then
+		AtlasLoot_ShowItemsFrame(setid, AtlasLootProfessionsItems, ATLASLOOT_TAILORING..": "..ATLASLOOT_CHEST.." - "..ATLASLOOT_PAGE1, AtlasLoot_AnchorFrame);
+		getglobal("AtlasLootItemsFrame_PREV").lootpage="TailoringBack";
+		getglobal("AtlasLootItemsFrame_PREV"):Show();
+		getglobal("AtlasLootItemsFrame_NEXT").lootpage="TailoringChest2";
+		getglobal("AtlasLootItemsFrame_NEXT"):Show();
+	elseif(setid=="TailoringChest2") then
+		AtlasLoot_ShowItemsFrame(setid, AtlasLootProfessionsItems, ATLASLOOT_TAILORING..": "..ATLASLOOT_CHEST.." - "..ATLASLOOT_PAGE2, AtlasLoot_AnchorFrame);
+		getglobal("AtlasLootItemsFrame_PREV").lootpage="TailoringChest1";
+		getglobal("AtlasLootItemsFrame_PREV"):Show();
+		getglobal("AtlasLootItemsFrame_NEXT").lootpage="TailoringChest3";
+		getglobal("AtlasLootItemsFrame_NEXT"):Show();
+	elseif(setid=="TailoringChest3") then
+		AtlasLoot_ShowItemsFrame(setid, AtlasLootProfessionsItems, ATLASLOOT_TAILORING..": "..ATLASLOOT_CHEST.." - "..ATLASLOOT_PAGE3, AtlasLoot_AnchorFrame);
+		getglobal("AtlasLootItemsFrame_PREV").lootpage="TailoringChest2";
+		getglobal("AtlasLootItemsFrame_PREV"):Show();
+		getglobal("AtlasLootItemsFrame_NEXT").lootpage="TailoringChest4";
+		getglobal("AtlasLootItemsFrame_NEXT"):Show();
+	elseif(setid=="TailoringChest4") then
+		AtlasLoot_ShowItemsFrame(setid, AtlasLootProfessionsItems, ATLASLOOT_TAILORING..": "..ATLASLOOT_CHEST.." - "..ATLASLOOT_PAGE4, AtlasLoot_AnchorFrame);
+		getglobal("AtlasLootItemsFrame_PREV").lootpage="TailoringChest3";
+		getglobal("AtlasLootItemsFrame_PREV"):Show();
+		getglobal("AtlasLootItemsFrame_NEXT").lootpage="TailoringShirt";
+		getglobal("AtlasLootItemsFrame_NEXT"):Show();
 	elseif(setid=="Leatherworking") then
 		AtlasLoot_ShowItemsFrame(setid, AtlasLootProfessionsItems, ATLASLOOT_LEATHERWORKING, AtlasLoot_AnchorFrame);
 	elseif(setid=="Blacksmithing") then
