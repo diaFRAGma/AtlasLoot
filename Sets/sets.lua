@@ -262,7 +262,7 @@ AtlasLootSetItems = {
         { 16826, "INV_Gauntlets_21", "=q4=Nightslayer Gloves", "=ds="..AtlasLootBossNames["MoltenCore"][3], "19.47%" },
         { 16827, "INV_Belt_23", "=q4=Nightslayer Belt", "=ds="..AtlasLootBossNames["Common"][1], "0.15%" },
         { 16822, "INV_Pants_06", "=q4=Nightslayer Pants", "=ds="..AtlasLootBossNames["MoltenCore"][2], "13.83%" },
-        { 16824, "INV_Gauntlets_08", "=q4=Nightslayer Boots", "=ds="..AtlasLootBossNames["MoltenCore"][5], "15.58%" },
+        { 16824, "INV_Boots_08", "=q4=Nightslayer Boots", "=ds="..AtlasLootBossNames["MoltenCore"][5], "15.58%" },
         };
 
    T1Druid = {
