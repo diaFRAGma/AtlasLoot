@@ -510,16 +510,29 @@ AtlasLootProfessionsItems = {
 		{ 6272, "INV_Scroll_03", "=q1=Muster: Blaue Leinenrobe", "=ds=#p8# (70) [H\195\164ndler]" },
 		{ 6274, "INV_Scroll_03", "=q1=Muster: Blauer Overall", "=ds=#p8# (100) [H\195\164ndler]" },
 		{ 2601, "INV_Scroll_06", "=q2=Muster: Graue Wollrobe", "=ds=#p8# (105) [Drop]" },
-		{ 6275, "INV_Scroll_03", "=q1=Muster: Große Adeptenrobe", "=ds=#p8# (115) [H\195\164ndler]" },
+		{ 6275, "INV_Scroll_03", "=q1=Muster: Gro\195\159e Adeptenrobe", "=ds=#p8# (115) [H\195\164ndler]" },
 		{ 5773, "INV_Scroll_06", "=q2=Muster: Roben von Arcana", "=ds=#p8# (150) [Drop]" },
-		{ 7090, "INV_Scroll_06", "=q2=Muster: Gr\195\188ne Seidenrüstung", "=ds=#p8# (165) [Drop]" },
+		{ 7090, "INV_Scroll_06", "=q2=Muster: Gr\195\188ne Seidenr\195\188stung", "=ds=#p8# (165) [Drop]" },
 		{ 7088, "INV_Scroll_03", "=q1=Muster: Purpurrote Seidenrobe", "=ds=#p8# (205) [H\195\164ndler]" },
 		{ 10300, "INV_Scroll_06", "=q2=Muster: Rote Magiestoffweste", "=ds=#p8# (215) [Drop]" },
 		{ 10326, "INV_Scroll_03", "=q1=Muster: Smokingjacke", "=ds=#p8# (250) [H\195\164ndler]" },
-		{ 10325, "INV_Scroll_03", "=q1=Muster: Weißes Hochzeitskleid", "=ds=#p8# (250) [H\195\164ndler]" },
+		{ 10325, "INV_Scroll_03", "=q1=Muster: Wei\195\159es Hochzeitskleid", "=ds=#p8# (250) [H\195\164ndler]" },
 		{ 21722, "INV_Scroll_06", "=q2=Muster: Festtagskleid", "=ds=#p8# (250) [Mondfest Quest]" },
 		{ 0, "", "", "" },
 		{ 2572, "INV_Chest_Cloth_18", "=q2=Rote Leinenrobe", "" },
+		{ 6240, "INV_Chest_Cloth_37", "=q2=Blaue Leinenweste", "" },
+		{ 6239, "INV_Chest_Cloth_40", "=q2=Rote Leinenweste", "" },
+		{ 6242, "INV_Chest_Cloth_23", "=q2=Blaue Leinenrobe", "" },
+		{ 6263, "INV_Shirt_13", "=q2=Blauer Overall", "" },
+		{ 2585, "INV_Chest_Cloth_13", "=q2=Graue Wollrobe", "" },
+		{ 6264, "INV_Chest_Cloth_24", "=q2=Gro\195\159e Adeptenrobe", "" },
+		{ 5770, "INV_Chest_Cloth_29", "=q2=Roben von Arcana", "" },
+		{ 7065, "INV_Chest_Cloth_06", "=q2=Gr\195\188ne Seidenr\195\188stung", "" },
+		{ 7063, "INV_Chest_Cloth_25", "=q2=Purpurrote Seidenrobe", "" },
+		{ 10007, "INV_Shirt_09", "=q2=Rote Magiestoffweste", "" },
+		{ 10036, "INV_Shirt_Black_01", "=q1=Smokingjacke", "" },
+		{ 10040, "INV_Chest_Cloth_04", "=q1=Wei\195\159es Hochzeitskleid", "" },
+		{ 21154, "INV_Chest_Cloth_56", "=q1=Festtagskleid", "" },
 		};
 		
 	TailoringChest3 = {
@@ -537,6 +550,16 @@ AtlasLootProfessionsItems = {
 		{ 19219, "INV_Scroll_03", "=q1=Muster: Flimmerkernrobe", "=ds=#p8# (300) [H\195\164ndler]" },
 		{ 19764, "INV_Scroll_03", "=q1=Muster: Blutrebenweste", "=ds=#p8# (300) [H\195\164ndler]" },
 		{ 14506, "INV_Scroll_06", "=q2=Muster: Teufelsstoffrobe", "=ds=#p8# (300) [Drop]" },
+		{ 0, "", "", "" },
+		{ 21542, "INV_Chest_Cloth_55", "=q1=Festtagsanzug", "" },
+		{ 13869, "INV_Chest_Cloth_08", "=q2=Winterzwirntunika", "" },
+		{ 13868, "INV_Chest_Cloth_03", "=q2=Winterzwirnrobe", "" },
+		{ 13858, "INV_Chest_Cloth_04", "=q2=Runenstoffrobe", "" },
+		{ 13857, "INV_Chest_Cloth_04", "=q2=Runenstofftunika", "" },
+		{ 14042, "INV_Chest_Cloth_07", "=q2=Aschenstoffweste", "" },
+		{ 14100, "INV_Chest_Cloth_26", "=q2=Hellstoffrobe", "" },
+		{ 14141, "INV_Shirt_08", "=q2=Geisterzwirnweste", "" },
+		{ 14136, "INV_Chest_Cloth_49", "=q3=Robe der Winternacht", "" },
 		};
 
 	TailoringChest4 = {
@@ -657,9 +680,6 @@ AtlasLootProfessionsItems = {
 		{ 4350, "INV_Scroll_06", "=q2=Muster: Spinnenseidenslipper", "=ds=#p8# (140) [Drop]" },
 		{ 4345, "INV_Scroll_06", "=q2=Muster: Rote Wollstiefel", "=ds=#p8# (95) [Drop]" },
 		{ 20547, "INV_Scroll_05", "=q3=Muster: Runenverzierte stygische Stiefel", "=ds=#p8# (300)" },
-		};
-
-	Tailoring = {
 		};
 
 	Leatherworking = {
