@@ -555,7 +555,61 @@ function AtlasLootProfessionsButton_OnClick(setid)
 		AtlasLoot_ShowItemsFrame(setid, AtlasLootProfessionsItems, ATLASLOOT_TAILORING..": "..ATLASLOOT_CHEST.." - "..ATLASLOOT_PAGE4, AtlasLoot_AnchorFrame);
 		getglobal("AtlasLootItemsFrame_PREV").lootpage="TailoringChest3";
 		getglobal("AtlasLootItemsFrame_PREV"):Show();
-		getglobal("AtlasLootItemsFrame_NEXT").lootpage="TailoringShirt";
+		getglobal("AtlasLootItemsFrame_NEXT").lootpage="TailoringShirt1";
+		getglobal("AtlasLootItemsFrame_NEXT"):Show();
+	elseif(setid=="TailoringShirt1") then
+		AtlasLoot_ShowItemsFrame(setid, AtlasLootProfessionsItems, ATLASLOOT_TAILORING..": "..ATLASLOOT_SHIRT.." - "..ATLASLOOT_PAGE1, AtlasLoot_AnchorFrame);
+		getglobal("AtlasLootItemsFrame_PREV").lootpage="TailoringChest4";
+		getglobal("AtlasLootItemsFrame_PREV"):Show();
+		getglobal("AtlasLootItemsFrame_NEXT").lootpage="TailoringShirt2";
+		getglobal("AtlasLootItemsFrame_NEXT"):Show();
+	elseif(setid=="TailoringShirt2") then
+		AtlasLoot_ShowItemsFrame(setid, AtlasLootProfessionsItems, ATLASLOOT_TAILORING..": "..ATLASLOOT_SHIRT.." - "..ATLASLOOT_PAGE2, AtlasLoot_AnchorFrame);
+		getglobal("AtlasLootItemsFrame_PREV").lootpage="TailoringShirt1";
+		getglobal("AtlasLootItemsFrame_PREV"):Show();
+		getglobal("AtlasLootItemsFrame_NEXT").lootpage="TailoringBracer";
+		getglobal("AtlasLootItemsFrame_NEXT"):Show();
+	elseif(setid=="TailoringBracer") then
+		AtlasLoot_ShowItemsFrame(setid, AtlasLootProfessionsItems, ATLASLOOT_TAILORING..": "..ATLASLOOT_WRIST, AtlasLoot_AnchorFrame);
+		getglobal("AtlasLootItemsFrame_PREV").lootpage="TailoringShirt2";
+		getglobal("AtlasLootItemsFrame_PREV"):Show();
+		getglobal("AtlasLootItemsFrame_NEXT").lootpage="TailoringHands1";
+		getglobal("AtlasLootItemsFrame_NEXT"):Show();
+	elseif(setid=="TailoringHands1") then
+		AtlasLoot_ShowItemsFrame(setid, AtlasLootProfessionsItems, ATLASLOOT_TAILORING..": "..ATLASLOOT_HANDS.." - "..ATLASLOOT_PAGE1, AtlasLoot_AnchorFrame);
+		getglobal("AtlasLootItemsFrame_PREV").lootpage="TailoringBracer";
+		getglobal("AtlasLootItemsFrame_PREV"):Show();
+		getglobal("AtlasLootItemsFrame_NEXT").lootpage="TailoringHands2";
+		getglobal("AtlasLootItemsFrame_NEXT"):Show();
+	elseif(setid=="TailoringHands2") then
+		AtlasLoot_ShowItemsFrame(setid, AtlasLootProfessionsItems, ATLASLOOT_TAILORING..": "..ATLASLOOT_HANDS.." - "..ATLASLOOT_PAGE2, AtlasLoot_AnchorFrame);
+		getglobal("AtlasLootItemsFrame_PREV").lootpage="TailoringHands1";
+		getglobal("AtlasLootItemsFrame_PREV"):Show();
+		getglobal("AtlasLootItemsFrame_NEXT").lootpage="TailoringBelt";
+		getglobal("AtlasLootItemsFrame_NEXT"):Show();
+	elseif(setid=="TailoringBelt") then
+		AtlasLoot_ShowItemsFrame(setid, AtlasLootProfessionsItems, ATLASLOOT_TAILORING..": "..ATLASLOOT_WAIST, AtlasLoot_AnchorFrame);
+		getglobal("AtlasLootItemsFrame_PREV").lootpage="TailoringHands2";
+		getglobal("AtlasLootItemsFrame_PREV"):Show();
+		getglobal("AtlasLootItemsFrame_NEXT").lootpage="TailoringLegs1";
+		getglobal("AtlasLootItemsFrame_NEXT"):Show();
+	elseif(setid=="TailoringLegs1") then
+		AtlasLoot_ShowItemsFrame(setid, AtlasLootProfessionsItems, ATLASLOOT_TAILORING..": "..ATLASLOOT_LEGS.." - "..ATLASLOOT_PAGE1, AtlasLoot_AnchorFrame);
+		getglobal("AtlasLootItemsFrame_PREV").lootpage="TailoringBelt";
+		getglobal("AtlasLootItemsFrame_PREV"):Show();
+		getglobal("AtlasLootItemsFrame_NEXT").lootpage="TailoringLegs2";
+		getglobal("AtlasLootItemsFrame_NEXT"):Show();
+	elseif(setid=="TailoringLegs2") then
+		AtlasLoot_ShowItemsFrame(setid, AtlasLootProfessionsItems, ATLASLOOT_TAILORING..": "..ATLASLOOT_LEGS.." - "..ATLASLOOT_PAGE2, AtlasLoot_AnchorFrame);
+		getglobal("AtlasLootItemsFrame_PREV").lootpage="TailoringLegs1";
+		getglobal("AtlasLootItemsFrame_PREV"):Show();
+		getglobal("AtlasLootItemsFrame_NEXT").lootpage="TailoringFeet";
+		getglobal("AtlasLootItemsFrame_NEXT"):Show();
+	elseif(setid=="TailoringFeet") then
+		AtlasLoot_ShowItemsFrame(setid, AtlasLootProfessionsItems, ATLASLOOT_TAILORING..": "..ATLASLOOT_FEET, AtlasLoot_AnchorFrame);
+		getglobal("AtlasLootItemsFrame_PREV").lootpage="TailoringLegs2";
+		getglobal("AtlasLootItemsFrame_PREV"):Show();
+		getglobal("AtlasLootItemsFrame_NEXT").lootpage="TailoringTradeGoods";
 		getglobal("AtlasLootItemsFrame_NEXT"):Show();
 	elseif(setid=="Leatherworking") then
 		AtlasLoot_ShowItemsFrame(setid, AtlasLootProfessionsItems, ATLASLOOT_LEATHERWORKING, AtlasLoot_AnchorFrame);
