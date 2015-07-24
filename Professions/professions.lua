@@ -848,6 +848,18 @@ AtlasLootProfessionsItems = {
 		};
 
 	Cooking = {
+		{ 6326, "INV_Scroll_03", "=q1=Rezept: Glitschhautmakrele", "=ds=#p3# (1) [H\195\164ndler]" },
+		{ 6325, "INV_Scroll_03", "=q1=Rezept: Glänzender Kleinfisch", "=ds=#p3# (1) [H\195\164ndler]" },
+		{ 12226, "INV_Scroll_03", "=q1=Rezept: Knuspriger Fledermausfl\195\188gel", "=ds=#p3# (1) [H\195\164ndler]" },
+		{ 17200, "INV_Scroll_03", "=q1=Rezept: Lebkuchen", "=ds=#p3# (1) [H\195\164ndler]" },
+		{ 5482, "INV_Scroll_03", "=q1=Rezept: Spinnenkebab der Kaldorei", "=ds=#p3# (10) [H\195\164ndler]" },
+		{ 5483, "INV_Scroll_03", "=q1=Rezept: Skorpid Surprise", "=ds=#p3# (20) [H\195\164ndler]" },
+		{ 2889, "INV_Scroll_03", "=q1=Rezept: Eberrippchen in Biersauce", "=ds=#p3# (25) [H\195\164ndler]" },
+		{ 17201, "INV_Scroll_03", "=q1=Rezept: Eierflip", "=ds=#p3# (35) [H\195\164ndler]" },
+		{ 5484, "INV_Scroll_03", "=q1=Rezept: Ger\195\182stetes Kodofleisch", "=ds=#p3# (35) [H\195\164ndler]" },
+		{ 6892, "INV_Scroll_03", "=q1=Rezept: Ger\195\164uchertes B\195\164renfleisch", "=ds=#p3# (40) [H\195\164ndler]" },
+		{ 18160, "INV_Scroll_03", "=q2=Rezept: Disteltee", "=ds=#p3# (60) [H\195\164ndler]" },
+		{ 3679, "INV_Scroll_03", "=q1=Rezept: Blutwurst", "=ds=#p3# (60) [H\195\164ndler]" },
 		};
 
 	FirstAid = {
