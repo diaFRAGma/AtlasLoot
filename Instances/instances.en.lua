@@ -2912,6 +2912,7 @@ AtlasLootItems = {
         { 22257, "INV_Jewelry_Ring_36", "=q3=Bloodclot Band", "=ds=#s13# =q2=#brd3#", "26.28%" },
         { 22266, "INV_Spear_01", "=q3=Flarethorn", "=ds=#h1#, #w4# =q2=#brd3#", "17.98%" },
         { 22271, "INV_Pants_Leather_21", "=q3=Leggings of Frenzied Magic", "=ds=#s11#, #a2# =q2=#brd3#", "23.24%" },
+		{ 11726, "INV_Chest_Chain_15", "=q4=Wilde Gladiatorenkette", "=ds=#s5#, #a3# =q2=#brd3#", "15.00%" },
         { 11722, "INV_Shoulder_30", "=q3=Dregmetal Spaulders", "=ds=#s3#, #a3# =q2=#brd4#", "15.07%" },
         { 22270, "INV_Boots_Plate_02", "=q3=Entrenching Boots", "=ds=#s12#, #a4# =q2=#brd4#", "11.97%" },
         { 11702, "INV_Axe_12", "=q3=Grizzle's Skinner", "=ds=#h3#, #w1# =q2=#brd4#", "20.62%" },
