@@ -81,7 +81,7 @@ AtlasLootProfessionsItems = {
 		{ 0, "Spell_Holy_GreaterHeal", "=q0=Gro\195\159es Mana", "=ds=+ 50 Mana (185) [Lehrer]" },
 		{ 0, "Spell_Holy_GreaterHeal", "=q0=Geringe Werte", "=ds=+ 2 Werte (200) [Lehrer]" },
 		{ 0, "Spell_Holy_GreaterHeal", "=q0=\195\156berragende Gesundheit", "=ds=+ 50 Gesundheit (220) [Lehrer]" },
-		{ 0, "Spell_Holy_GreaterHeal", "=q0=\195\156berragendes Mana", "=ds=+ 65 Gesundheit (230) [Lehrer]" },
+		{ 0, "Spell_Holy_GreaterHeal", "=q0=\195\156berragendes Mana", "=ds=+ 65 Mana (230) [Lehrer]" },
 		{ 0, "Spell_Holy_GreaterHeal", "=q0=Werte", "=ds=+ 3 Werte (245) [Lehrer]" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
