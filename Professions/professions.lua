@@ -230,6 +230,7 @@ AtlasLootProfessionsItems = {
 		{ 0, "Spell_Holy_GreaterHeal", "=q0=Gro\195\159er Einschlag", "=ds=+ 7 Schaden (240) [Lehrer]" },
 		{ 0, "", "", "" },
 		{ 6349, "INV_Misc_Note_01", "=q1=Formel: Zweihandwaffe - Geringe Intelligenz", "=ds=#p4# (100) [H\195\164ndler]" },
+		{ 11038, "INV_Misc_Note_01", "=q2=Formel: Zweihandwaffe - Geringe Willenskraft", "=ds=#p4# (110) [Drop]" },
 		{ 22392, "INV_Misc_Note_01", "=q1=Formel: Zweihandwaffe - Beweglichkeit", "=ds=#p4# (290) [H\195\164ndler]" },
 		};
 		
