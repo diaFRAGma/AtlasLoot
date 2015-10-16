@@ -324,7 +324,7 @@ ATLASLOOT_BRDARENA2 = "Ausweider";
 ATLASLOOT_BRDARENA3 = "Gorosh der Derwisch";
 ATLASLOOT_BRDARENA4 = "Grizzle";
 ATLASLOOT_BRDARENA5 = "Hedrum der Krabbler";
-ATLASLOOT_BRDARENA6 = "Ok'thor der Zerstörer";
+ATLASLOOT_BRDARENA6 = "Ok'thor der Zerst\195\182rer";
 
 ATLASLOOT_OPTIONS_TITLE = "Atlasloot Optionen";
 ATLASLOOT_OPTIONS_SAFE_LINKS = "Sichere Chatlinks |cff1eff00(Empfohlen)|r";
